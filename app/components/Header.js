@@ -1,4 +1,4 @@
-import logo from "../assets/boba-logo.png";
+import logo from "../assets/logo.png";
 import Image from "next/image";
 
 const Header = () => {
