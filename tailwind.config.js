@@ -9,6 +9,7 @@ module.exports = {
 		extend: {
 			colors: {
 				tea: "#e5cdae",
+				pearl: "#14242c",
 			},
 			backgroundImage: {
 				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
