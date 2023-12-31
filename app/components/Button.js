@@ -1,5 +1,5 @@
 const Banner = () => {
-	return <button className="bg-black text-white">Skip</button>;
+	return <button className="bg-pearl text-white p-4 rounded-full">Skip</button>;
 };
 
 export default Banner;
