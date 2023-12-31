@@ -1,5 +1,5 @@
-import Button from "../components/Button";
-const Banner = () => {
+import Button from "./Button";
+const Body = () => {
 	const sites = [
 		{
 			id: 1,
@@ -39,4 +39,4 @@ const Banner = () => {
 	);
 };
 
-export default Banner;
+export default Body;
