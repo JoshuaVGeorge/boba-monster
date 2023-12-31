@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Banner = ({ link, logo }) => {
+const Button = ({ link, logo }) => {
 	return (
 		<Link href={link} className=" rounded-full">
 			<div className=" flex justify-center items-center bg-pearl text-white button hover:animate-wiggle hover:cursor-pointer active:bg-black">
@@ -11,4 +11,4 @@ const Banner = ({ link, logo }) => {
 	);
 };
 
-export default Banner;
+export default Button;
