@@ -32,7 +32,7 @@ const Body = () => {
 	return (
 		<div className="bg-tea flex flex-col items-center justify-evenly h-[71vh] md:h-[64vh] lg:h-[60vh]">
 			<Banner />
-			<div className="w-full flex items-center justify-around flex-wrap">
+			<div className="w-full flex items-center justify-around">
 				{sites.map((site) => {
 					return <Button key={site.id} link={site.link} logo={site.logoSml} />;
 				})}
